@@ -7,7 +7,6 @@ body {
   background-image: url("../resources/Banner\ Image.png");
   width: 1320px;
   height: 600px;
-  filter: brightness(80%);
   margin-bottom: 0px;
 }
 .happy-new-year {
@@ -78,24 +77,24 @@ body {
   padding: 126px 552px 10px 126px;
 }
 .welcome-description{
-color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin-top: 24px;
-padding: 0px 497px 0px 126px;
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+  padding: 0px 497px 0px 126px;
 }
 .join{
-padding: 0px 1059px 142px 158px;
-margin-top: 48px;
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
+  padding: 0px 1059px 142px 158px;
+  margin-top: 48px;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
 .party-info-container{
   width: 1320px;
@@ -105,54 +104,140 @@ text-transform: uppercase;
   padding-top: 100px;
 }
 .info{
-color: #070211;
-font-family: Inter;
-font-size: 32px;
-font-weight: 600;
-text-transform: capitalize;
-display: flex;
-align-items: center;
-justify-content: center;
-line-height: 0px;
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0px;
 
 }
 .info-title{
   color: #F00;
 }
 .button{
-color: white;
-border: none;
-border-radius: 8px;
-background: #F00;
-padding: 16px 32px;
-justify-content: center;
-gap: 10px;
-margin: 50px 577px 110px 577px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background: #F00;
+  padding: 16px 32px;
+  justify-content: center;
+  gap: 10px;
+  margin: 50px 577px 110px 577px;
 }
 .portfolio{
   margin-top: 154px;
+  margin-bottom: 120px;
 }
-.portfolio h1{
-color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+  .portfolio h1{
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
 }
 .portfolio h2{
-color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
-margin-top: 0px;
-margin-bottom: 0px;
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .portfolio p {
-color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
-margin-top: 15px;
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 15px;
+  margin-bottom: 48px;
+}
+.products-line{
+  border-radius: 16px;
+}
+.subscribe-container{
+  width: 1320px;
+  height: 616px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-container img{
+  padding: 80px 585px 40px 585px;
+}
+.subscribe-container h1{
+  padding-left: 404px;
+  padding-right: 404px;
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 0px;
+}
+.subscribe-container p {color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-left: 212px;
+  padding-right: 212px;
+}
+
+.subscriber-option{
+  display: flex;
+  padding-left: 436px;
+}
+.subscriber-option input{
+  padding: 24px 56px;
+  border: none;
+}
+.subscribe-container button{
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
+  padding: 10px 25px;
+  color: #FFF;
+  border: none;
+  width: 180px;
+  height: 60px;
+}
+.data{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left{
+  padding-top: 120px;
+  padding-left: 140px;
+}
+.icons{
+  padding-left: 500px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+footer{
+  background-color: #070211;
+  width: 1320px;
+  height: 600px;
+  color: #fff;
+}
+.right{
+  padding: 120px 291px 0px 0px;
+}
+.ends{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 140px;
+  padding-right: 140px;
+  margin-top: 50px;
+  padding-bottom: 50px;
 }

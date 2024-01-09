@@ -31,8 +31,7 @@ body {
   line-height: 95px;
   margin-top: 0px;
 }
-.second-part-container {
-}
+
 .second-part-offer {
   color: #f00;
   text-align: center;
@@ -75,7 +74,7 @@ body {
   font-size: 64px;
   font-weight: 900;
   line-height:
-  letter-spacing: 7.04px;
+  letter-spacing 7.04px;
   padding: 126px 552px 10px 126px;
 }
 .welcome-description{
